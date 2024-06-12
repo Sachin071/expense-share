@@ -5,7 +5,7 @@ const Expense = require("../modals/expense");
 const Balance = require("../modals/balance");
 
 // Add a new expense
-router.post("/", async (req, res) => {
+router.post("/add", async (req, res) => {
   const { payerId, totalAmount, expenseType, participants } = req.body;
 
   // Validate inputs based on expense type

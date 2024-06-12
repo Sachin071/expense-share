@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "66698f843459b090f5dc2b94"
+  },
+  "userId": "u1",
+  "name": "xyz",
+  "email": "xyz@gmail.com",
+  "mobileNumber": "7843567890",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666992b52bf401c6e3eac5b9"
+  },
+  "userId": "u2",
+  "name": "xyz1",
+  "email": "xyz1@gmail.com",
+  "mobileNumber": "78435887890",
+  "__v": 0
+}]

@@ -1,0 +1,62 @@
+[{
+  "_id": {
+    "$oid": "666993cc2bf401c6e3eac5bc"
+  },
+  "payerId": "u1",
+  "totalAmount": 1000,
+  "expenseType": "EQUAL",
+  "participants": [
+    {
+      "userId": "u2",
+      "_id": {
+        "$oid": "666993cc2bf401c6e3eac5bd"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-12T12:25:48.194Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6669958b2bf401c6e3eac5c2"
+  },
+  "payerId": "u1",
+  "totalAmount": 1200,
+  "expenseType": "EXACT",
+  "participants": [
+    {
+      "userId": "u2",
+      "amountOwed": 1200,
+      "_id": {
+        "$oid": "6669958b2bf401c6e3eac5c3"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-12T12:33:15.160Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666995cb2bf401c6e3eac5c6"
+  },
+  "payerId": "u1",
+  "totalAmount": 1200,
+  "expenseType": "PERCENT",
+  "participants": [
+    {
+      "userId": "u2",
+      "percentageShare": 100,
+      "_id": {
+        "$oid": "666995cb2bf401c6e3eac5c7"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-06-12T12:34:19.391Z"
+  },
+  "__v": 0
+}]

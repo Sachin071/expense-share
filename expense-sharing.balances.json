@@ -1,0 +1,9 @@
+[{
+  "_id": {
+    "$oid": "666993cc51ae3cf3193eae2c"
+  },
+  "userId": "u2",
+  "owedTo": "u1",
+  "__v": 0,
+  "balance": 3400
+}]
